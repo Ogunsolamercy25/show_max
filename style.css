@@ -1,0 +1,88 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.showmax{
+    width: 120px;
+    margin-left: 2.5em;
+}
+
+.div2{
+    background-color: rgb(3,17,36);
+}
+.img2{
+    height: 450px;
+    width: 700px !important;
+    margin-top: -47px;
+    margin-bottom: -15px;
+    margin-right: -3em;
+}
+.pick{
+    width: 100px;
+}
+.div3, .div4{
+    background-color: rgb(21,34,51);
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    margin-left: 10em;
+}
+.div3 img{
+    height: 3.5em;
+}
+.div4{
+    margin-left: -109em;
+    background-color: rgb(21,34,51);
+    padding: 40px;
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wura{
+    /* width: 80px; */
+}
+.flawsome{
+    width: 170px;
+    height: 250px;
+}
+
+@media screen and (max-width: 480px)  {
+    .show{
+        display: flex;
+        gap: 20px;
+    }
+    .showmax{
+        width: 80px;
+        height: 50px;
+    }
+    .sign{
+        display: flex;
+        width: 80px;
+        margin-right: 60px;
+        color: white;
+    }
+
+    .div2{
+        flex-direction: column;
+
+    }
+    .bg{
+        padding-top: 100px;
+        width: 180px !important;
+    }
+    .div34{
+        /* flex-direction: column; */
+    }
+    
+
+}
